@@ -66,11 +66,11 @@ Top 10 Customers By Profit:
  
 <h2>DATA PREPROCESSING</h2>
 <h3>Data Overview</h3>
-<p>The dataset consists of the following components:
-- <b>Customers</b>: Information about customer IDs and names.
-- <b>Location</b>: Details of postal codes, cities, states, and regions.
-- <b>Orders</b>: Comprehensive order details, including order dates, shipping modes, product IDs, customer ID, quantity, and sales figures.
-- <b>Products</b>: Categories, sub-categories, product ID, and product names.</p>
+<p>The dataset consists of the following components:</p>
+<p>- <b>Customers</b>: Information about customer IDs and names.</p>
+<p>- <b>Location</b>: Details of postal codes, cities, states, and regions.</p>
+<p>- <b>Orders</b>: Comprehensive order details, including order dates, shipping modes, product IDs, customer ID, quantity, and sales figures.</p>
+<p>- <b>Products</b>: Categories, sub-categories, product ID, and product names.</p>
 
 <h3>Data Cleaning</h3>
 <p>Key cleaning steps:</p>
@@ -79,13 +79,46 @@ Top 10 Customers By Profit:
 <p>- Addressed missing values and removed duplicates to ensure data integrity.</p>
 
 <h3>Feature Creation</h3>
+<p>Custom calculated fields were created, including:</p>
+<p>- <b>Dynamic Year Selection:</b> Allows users to choose the current year for analysis.</p>
+<p>- <b>Sales and Profit Trends:</b> Highlights year-over-year differences and weekly patterns.</p>
+<p>- <b>Performance Indicators:</b> Identifies months with the highest and lowest sales, and subcategories with profit/loss trends.</p>
 
 <h2>EXPLORY DATA ANALYSIS</h2>
 <h3>Questions for Sales Performance</h3>
+<ul>
+  <li>What are the total sales, profit, and quantities for the current and previous years?</li>
+  <li>Which months had the highest and lowest sales in the current year?</li>
+  <li>How do product subcategories compare in terms of sales and profit performance?</li>
+  <li>What are the weekly trends for sales and profits?</li>
+</ul>
+
 <h3>Questions for Customer Segmentation and Trends</h3>
+<ul>
+  <li>Which customer segments are most profitable?</li>
+  <li>What is the distribution of customers based on order frequency?</li>
+  <li>Who are the top 10 customers by profit?</li>
+</ul>
+
 <h3>Questions for Orders</h3>
+<ul>
+  <li>Which product categories have the highest order volumes?</li>
+  <li>What are the most common order trends across time?</li>
+</ul>
 
 <h2>CONCLUSION</h2>
+<h3>Sales Dashboard Insights</h3>
+<p><b>1. Sales Performance:</b> The total sales for 2023 reached $733K, showing a 20.4% increase compared to the previous year (PY). Sales trends reveal notable spikes and dips, with clear identification of the highest and lowest performing months.</p>
+<p><b>2. Profit Analysis:</b> Total profit for 2023 amounted to $93K, a 12.5% improvement from PY. The weekly trends highlight periods of strong performance above the average profit line and areas for potential improvement.</p>
+<p><b>3. Quantity Sold:</b> The total quantity sold in 2023 was 12K, a 26.8% growth compared to PY, indicating an increase in demand.</p>
+<p><b>4. Product Subcategories:</b> Chairs, Phones, and Tables are top-performing subcategories, whereas categories like Art and Envelopes incurred losses, providing a roadmap for product strategy adjustments.</p>
+
+<h3>Customer Dashboard Insights</h3>
+
+<p><b>1. Customer Engagement:</b> The total number of customers in 2023 increased by 8.6%, totaling 693. The average sales per customer stood at $1,058, an increase of 10.8% from PY, indicating effective customer retention and revenue maximization strategies.</p>
+<p><b>2. Order Growth:</b> Total orders rose significantly by 28.3% to 1,687 in 2023, with a consistent monthly upward trend. Customer distribution data shows loyalty among those placing multiple orders.</p>
+<p><b>3. Top Customers:</b> The top 10 customers contributed significantly to the company's profitability, with Raymond Buch generating the highest profit of $6,781. This highlights the importance of targeted customer retention efforts.</p>
+<p><b>4. Order Trends:</b> The distribution analysis indicates a majority of customers place 1-2 orders, with fewer making five or more. This provides an opportunity to explore customer loyalty programs to increase order frequency.</p>
 
 <h2>RECOMMENDATION</h2>
 
