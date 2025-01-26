@@ -122,6 +122,13 @@ Top 10 Customers By Profit:
 
 <h2>RECOMMENDATION</h2>
 
+<h3>Sales Performance</h3>
+<p><b>1. Focus on High-Performing Product Categories:</b></p>
+<p>- Leverage the strong performance of Chairs, Phones, and Tables by allocating more marketing resources and increasing inventory for these subcategories.</p>
+<p>- Explore bundling strategies or upselling opportunities within these categories to maximize revenue.</p>
+
+<p><b>2. Revamp Underperforming Categories:</b></p>
+
 <h2>REFERENCE</h2>
 
  ### [YouTube Data with Baraa - Tableau Complete Project End-to-End | Like I Do in My Real Project](https://www.youtube.com/watch?v=dahrmqT5GD4)
